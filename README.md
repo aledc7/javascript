@@ -26,3 +26,22 @@ function numberWithCommas(x) {
 
 numberWithCommas(ale);
 ````
+
+Otra posibilidad de hacer esto mismo es haciendo uso de __toLocaleString__  . Esta función formatea el numero según el parámetro que se le pase, en este caso yo le paso __'en-US'__   
+Si se deja en blanco, tomara el dato del navgador.   
+
+```js
+var n = 100000;
+function numberWithCommas2(x) {
+
+var ale2 = n.toLocaleString(
+  'en-US', // leave undefined to use the browser's locale,
+             // or use a string like 'en-US' to override it.
+  { minimumFractionDigits: 2 }
+);
+return ale2;
+}
+
+numberWithCommas2(n);
+````
+

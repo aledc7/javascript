@@ -35,8 +35,8 @@ var n = 100000;
 function numberWithCommas2(x) {
 
 var ale2 = n.toLocaleString(
-  'en-US', // leave undefined to use the browser's locale,
-             // or use a string like 'en-US' to override it.
+  'en-US', // dejar undefined sin coma, y usará el dato del browser
+             // o indicar un string  'en-US' para usar un formato específico.
   { minimumFractionDigits: 2 }
 );
 return ale2;

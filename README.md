@@ -6,7 +6,7 @@
 [![Dependencies](https://github.com/aledc7/Scrum-Certification/blob/master/recursos/dependencias-none.svg)](https://aledc.tk)
 
 
-## Este repositorio es una recopilación de ejemplos para casos puntuales resueltos con Javcascript y jQuery.   
+Este repositorio es una recopilación de ejemplos para casos puntuales resueltos con Javcascript y jQuery.   
 
 Cada ejemplo lleva como nombre la accion que realiza, está en formato MD, y es código probado y 100% funcional.
 

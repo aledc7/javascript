@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <title>Recalcula Input</title>
+
+    <script>
+      $(document).ready(function(){
+          
+        
+        $('input[name="text1"]').prop('readonly', false).blur(function(){
+            $('input[name="text2"]').val(100 - $('input[name="text1"]').val() );
+        });
+
+        $('input[name="text2"]').prop('readonly', false).blur(function(){
+            $('input[name="text1"]').val(100 - $('input[name="text2"]').val() );
+        });
+    });
+    </script>
+  </head>
+  <body>
+      
+    <p>El total de estos dos input sumará 100, si se cambia algun numero, se ajusta automaticamente</p>
+
+        <input type="text" name="text1" size="5"> Valor 1<br />
+        <input type="text" name="text2" size="5"> Valor 2<br />
+        
+
+  </body>
+</html>

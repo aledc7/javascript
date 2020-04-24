@@ -17,7 +17,7 @@ function disable_button(){
       // deshabilito boton enviar  
       $('#enviar').prop('disabled', true);
       
-      # Ejecutar la funcion ale2()luego de 4 segundos
+      // Ejecutar la funcion ale2()luego de 4 segundos
       window.setTimeout( ale2, 4000 ); // 4 segundos
       }
 ````

@@ -11,8 +11,9 @@
 ## Deshabilitar un boton y ejecutar una funcion luego de X lapso de tiempo.   
 
 ```js
-# Deshabilito un boton
+
 function disable_button(){
+
       // deshabilito boton enviar  
       $('#enviar').prop('disabled', true);
       

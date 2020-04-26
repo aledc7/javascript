@@ -22,9 +22,9 @@ function disable_button(){
       }
       
       
-# Otra manera de poner un delay:
+// Otra manera de poner un delay:
 
-# Envuelvo mi funcion o evento dentro de un setTimeout, y luego le pongo el tiempo en milisegundos (1000 = 1 seg.)
+// Envuelvo mi funcion o evento dentro de un setTimeout, y luego le pongo el tiempo en milisegundos (1000 = 1 seg.)
 setTimeout(function() {
           alert("Algo");
             }, 4000);
@@ -35,10 +35,10 @@ setTimeout(function() {
 
 # Mostrar un Objeto en un alert o en un colsole.log
 ```php
-# Antepongo JSON.Stringify
+// Antepongo JSON.Stringify
 alert(JSON.stringify(miobjeto));
 
-# Lo mismo en los console.log
+// Lo mismo en los console.log
 console.log(JSON.stringify(miobjeto));
 ````
 

@@ -20,6 +20,17 @@ function disable_button(){
       // Ejecutar la funcion ale2()luego de 4 segundos
       window.setTimeout( ale2, 4000 ); // 4 segundos
       }
+      
+      
+# Otra manera de poner un delay:
+
+# Envuelvo mi funcion o evento dentro de un setTimeout, y luego le pongo el tiempo en milisegundos (1000 = 1 seg.)
+setTimeout(function() {
+          alert("Algo");
+            }, 4000);
+      
+      
+      
 ````
 
 # Mostrar un Objeto en un alert o en un colsole.log

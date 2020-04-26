@@ -28,7 +28,7 @@ function disable_button(){
 alert(JSON.stringify(miobjeto));
 
 # Lo mismo en los console.log
-consoñe.log(JSON.stringify(miobjeto));
+console.log(JSON.stringify(miobjeto));
 ````
 
 

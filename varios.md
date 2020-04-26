@@ -26,6 +26,9 @@ function disable_button(){
 ```php
 # Antepongo JSON.Stringify
 alert(JSON.stringify(miobjeto));
+
+# Lo mismo en los console.log
+consoñe.log(JSON.stringify(miobjeto));
 ````
 
 

@@ -35,6 +35,9 @@ setTimeout(function() {
 
 # Mostrar un Objeto en un alert o en un colsole.log
 ```php
+
+// usar esto cuando en console log sale:  object[object]
+
 // Antepongo JSON.Stringify
 alert(JSON.stringify(miobjeto));
 
